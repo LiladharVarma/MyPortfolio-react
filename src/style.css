@@ -1,0 +1,230 @@
+/* original css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .text-centre {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar-section {
+    border: 0.1rem solid black;
+  }
+  
+  .nav {
+    /* border: 0.2rem solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-links {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+  }
+  ul li a {
+    /* border : 2px solid blue ;  */
+    color: rgb(255, 255, 255);
+    /* color: rgb(0, 0, 0); */
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  
+  li a:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: reg(181, 181, 181);
+  }
+  
+  .logo {
+    color: #fff;
+    /* padding-bottom: 1rem; */
+  }
+  
+  /* prfile section */
+  
+  .my-profile {
+    /* border: 1px solid green; */
+    max-width: 400px;
+  }
+  
+  #profile {
+    /* border: .1rem solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 2rem;
+  }
+  
+  .text {
+    font-size: 1.75rem;
+    font-weight: 600px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-wrap: wrap;
+  }
+  .heading {
+    font-size: 3rem;
+    margin: 2rem 0px;
+    color: #f9004d;
+    text-align: center;
+  }
+  
+  #btn {
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  transition: .8s;
+  }
+  #btn:hover{
+    transform: scaleX(2);
+    font-size: 1.2rem;
+    background-color: #f9004d;
+  }
+  .About-container {
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+    /* min-height: 100vh; */
+    width: auto;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 1rem;
+  }
+  .h2-secondary {
+    margin: 20px 0px;
+  }
+  
+  .text-centre {
+    text-align: center;
+  }
+  .box {
+    border: 2px solid rgb(3, 209, 255);
+    background: rgba(243, 243, 243, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid white;
+    border-radius: 12px;
+    width: auto;
+    padding: 0.8rem;
+    text-align: center;
+    gap: 1rem;
+  }
+  .centre {
+    text-align: center;
+  }
+  
+  .style {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .intro {
+    margin: 10px;
+    font-size: 1.5rem;
+    /* text-align: center; */
+  }
+  
+  #skills {
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    font-family: "Poppins", sans-serif;
+    gap: 1rem;
+  }
+  
+ 
+
+  .pj-container{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    font-family: "Poppins", sans-serif;
+    gap: 1rem;
+
+  }
+  
+  .project-card{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid red; */
+    /* width: 400px; */
+   
+  }
+  .image-container{
+    /* height:300px ;
+    width: 258px ; */
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    /* border: 2px solid green; */
+  }
+  
+  .project-image {
+    /* width: 258px; */
+    width: 100%;
+    height: 216px;   
+    /* border: .2rem solid gray; */
+    border-radius:12px ;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+   
+  }
+  
+  .try-button {
+    text-decoration: none;
+    color: #ffff;
+    border: 0.1rem solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px black;
+  }
+  
+  .socials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .icons{
+    border: .1rem solid white;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 12px ;
+  }
