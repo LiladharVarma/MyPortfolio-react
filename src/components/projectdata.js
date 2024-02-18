@@ -4,6 +4,7 @@ import weatherAppLogo from "../images/weatherI.png";
 // import formLogo from "../images/form.png";
 import pinImage from "../images/pinImage.png";
 import instaClone from "../images/instaC.png";
+import todo from "../images/todo.png"
 
 
 const projectdata = [
@@ -32,15 +33,23 @@ const projectdata = [
       "Created Weather App using ReactJs and also did the api integration for live weather data to display.",
     tryLink: "https://liladharvarma.github.io/WeatherApp/",
   },
-
   {
     id: 3,
+    img: todo,
+    heading: "Todo App",
+    content:"Created basic todo app using React, tailwind. Used local storage for storage and learned some  basic animation using framer motion.",
+    tryLink: "https://todo-react-app1292.netlify.app/",
+  },
+
+  {
+    id: 4,
     img: currencyconverter,
     heading: "Currency Converter",
     content:
       "Created Currrency Converter using HTML CSS and Javascript and also did the api integration for result.",
     tryLink: "https://liladharvarma.github.io/CurrencyConverterJS/",
   },
+ 
   // {
   //   id: 4,
   //   img: formLogo,

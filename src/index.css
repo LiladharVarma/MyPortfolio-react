@@ -205,8 +205,10 @@ li a:hover {
   display: grid;
   color: var(--border-color);
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  
   font-family: "Poppins", sans-serif;
   gap: 1rem;
+  /* width:full; */
 }
 
 .project-card {

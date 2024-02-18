@@ -2,8 +2,18 @@ import React from "react";
 import projectdata from "./projectdata";
 import ProjectCard from "./ProjectCard";
 import { motion } from "framer-motion";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
 
 function Projects() {
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1
+  // };
   function CreateProjectCard(entry) {
     return (
       <ProjectCard
@@ -31,9 +41,12 @@ function Projects() {
         </p>
       </div>
 
+      {/* <Slider {...settings}> */}
       {/* <div className="card-container"> */}
       <div className="pj-container">{projectdata.map(CreateProjectCard)}</div>
+      {/* </Slider> */}
     </motion.section>
+   
   );
 }
 
