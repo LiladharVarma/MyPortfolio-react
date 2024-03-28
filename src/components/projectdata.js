@@ -14,7 +14,7 @@ const projectdata = [
     heading: "Instagram UI Clone",
     content:
       "Created Basic login form using React and also learned some react concepts by doing.Created components for different fields ",
-    tryLink: "https://instagram-ui-clone.netlify.app/",
+    tryLink: "https://instagram-ui-clone-react.vercel.app/",
   },
 
   {
