@@ -24,7 +24,7 @@ function ProjectCard(props) {
         <img className="project-image" src={props.img} />
       </motion.div>
       {/* <h2 className="h2-secondary centre">{props.heading}</h2> */}
-    <motion.div className="flex"
+    <motion.div className="flex "
      variants={{
         normal : { y : -75  },
         hover : { y : 0 },
@@ -35,9 +35,14 @@ function ProjectCard(props) {
     >
     <h2 className=" centre">{props.heading}</h2>
       <p className="style">{props.content}</p>
-      <a className="try-button" href={props.link} target="blank">
+     <div className="project-links">
+     <a className="try-button" href={props.link} target="blank">
         Try It Here
       </a>
+      <a className="try-button" href={props.githubRepo} target="blank">
+        Github Repo
+      </a>
+     </div>
     </motion.div>
     </motion.div>
   );

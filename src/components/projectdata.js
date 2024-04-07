@@ -15,6 +15,7 @@ const projectdata = [
     content:
      "Crafted an Instagram UI Clone using React, Tailwind CSS, and Material-ui components. Deployed on vercel." , 
     tryLink: "https://instagram-ui-clone-react.vercel.app/",
+    githubRepo : "https://github.com/LiladharVarma/Instagram-UI-clone-react"
   },
   {
     id: 1,
@@ -23,6 +24,7 @@ const projectdata = [
     content:
       "Created a SnapSafari using React,Tailwind CSS and Material-ui components. It let users search and download images.",
     tryLink: "https://snap-safari.vercel.app/",
+    githubRepo : "https://github.com/LiladharVarma/SnapSafari"
   },
 
   {
@@ -32,6 +34,7 @@ const projectdata = [
     content:
       "Created a Pinterest UI clone using React, emphasizing a captivating and user-friendly design.",
     tryLink: "https://pinterest-clone-react-1292.netlify.app/",
+    githubRepo : "https://github.com/LiladharVarma/pinterest_clone-react"
   },
   
   {
@@ -41,6 +44,7 @@ const projectdata = [
     content:
       "Created Weather App using ReactJs and also did the api integration for live weather data to display.",
     tryLink: "https://liladharvarma.github.io/WeatherApp/",
+    githubRepo : "https://github.com/LiladharVarma/WeatherApp"
   },
   {
     id: 4,
@@ -48,6 +52,7 @@ const projectdata = [
     heading: "Todo App",
     content:"Created basic todo app using React, tailwind. Learned some  basic animation using framer motion.",
     tryLink: "https://todo-react-app1292.netlify.app/",
+    githubRepo : "https://github.com/LiladharVarma/Todo-react-app"
   },
 
   {
@@ -57,6 +62,7 @@ const projectdata = [
     content:
       "Created Currrency Converter using HTML CSS and Javascript and also did the api integration for result.",
     tryLink: "https://liladharvarma.github.io/CurrencyConverterJS/",
+    githubRepo : "https://github.com/LiladharVarma/CurrencyConverterJS"
   },
  
   // {

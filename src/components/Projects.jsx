@@ -21,6 +21,7 @@ function Projects() {
         heading={entry.heading}
         content={entry.content}
         link={entry.tryLink}
+        githubRepo = {entry.githubRepo}
       />
     );
   }

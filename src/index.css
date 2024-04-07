@@ -245,6 +245,7 @@ li a:hover {
   padding: 0.5rem;
   border-radius: 12px;
   box-shadow: 2px 2px 8px black;
+  width: 100%;
 }
 
 .socials-container {
@@ -281,4 +282,12 @@ li a:hover {
   background-color: transparent;
   /* padding: .5rem; */
   border-radius: 50%;
+}
+
+.project-links{
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  gap: 10px;
+  width: 100%;
 }
