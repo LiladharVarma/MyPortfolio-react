@@ -5,7 +5,7 @@ import weatherAppLogo from "../images/weatherI.png";
 import pinImage from "../images/pinImage.png";
 import instaClone from "../images/instaC.png";
 import todo from "../images/todo.png"
-
+import snapSafari from "../images/sanpSafari2.png" ; 
 
 const projectdata = [
   {
@@ -13,20 +13,29 @@ const projectdata = [
     img: instaClone,
     heading: "Instagram UI Clone",
     content:
-      "Created Basic login form using React and also learned some react concepts by doing.Created components for different fields ",
+     "Crafted an Instagram UI Clone using React, Tailwind CSS, and Material-ui components. Deployed on vercel." , 
     tryLink: "https://instagram-ui-clone-react.vercel.app/",
+  },
+  {
+    id: 1,
+    img: snapSafari,
+    heading: "SanpSafri.com",
+    content:
+      "Created a SanpSafri using React,Tailwind CSS and Material-ui components. It let users search and download images.",
+    tryLink: "https://snap-safari.vercel.app/",
   },
 
   {
-    id: 1,
+    id: 2,
     img: pinImage,
     heading: "Pinterest UI Clone",
     content:
       "Created a Pinterest UI clone using React, emphasizing a captivating and user-friendly design.",
     tryLink: "https://pinterest-clone-react-1292.netlify.app/",
   },
+  
   {
-    id: 2,
+    id: 3,
     img: weatherAppLogo,
     heading: "Weather App",
     content:
@@ -34,15 +43,15 @@ const projectdata = [
     tryLink: "https://liladharvarma.github.io/WeatherApp/",
   },
   {
-    id: 3,
+    id: 4,
     img: todo,
     heading: "Todo App",
-    content:"Created basic todo app using React, tailwind. Used local storage for storage and learned some  basic animation using framer motion.",
+    content:"Created basic todo app using React, tailwind. Learned some  basic animation using framer motion.",
     tryLink: "https://todo-react-app1292.netlify.app/",
   },
 
   {
-    id: 4,
+    id: 5,
     img: currencyconverter,
     heading: "Currency Converter",
     content:
