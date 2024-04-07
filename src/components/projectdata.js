@@ -19,9 +19,9 @@ const projectdata = [
   {
     id: 1,
     img: snapSafari,
-    heading: "SanpSafri.com",
+    heading: "SnapSafri.com",
     content:
-      "Created a SanpSafri using React,Tailwind CSS and Material-ui components. It let users search and download images.",
+      "Created a SnapSafri using React,Tailwind CSS and Material-ui components. It let users search and download images.",
     tryLink: "https://snap-safari.vercel.app/",
   },
 
