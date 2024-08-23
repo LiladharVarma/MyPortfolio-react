@@ -11,14 +11,10 @@ const data = [
     },
     {
         id : 2 ,
-        skill:"Cloud Computing With AWS",
-        description :"I have completed an introductory course in cloud computing with AWS on the Internshala platform. While I have a foundational understanding of AWS services such as EC2 instances, S3 buckets, VPC, and IAM."
+        skill:"UI/UX Designing",
+        description :"I have completed the Google UX Design Certification course and a comprehensive web and mobile design course on Udemy. Through these courses, I have gained strong skills in UI/UX design."
     },
-    {
-        id : 3 ,
-        skill:"MySQL",
-        description :"I possess a solid understanding of MySQL database fundamentals and am actively expanding my knowledge by exploring its more advanced concepts and capabilities"
-    },
+
     {
         id : 4 ,
         skill:"Web Development",
